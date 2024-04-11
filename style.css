@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+#container div {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px; 
+  }
+
+.column1, .column2 {
+    flex: 1 1 0;
+}
+
+.column3 {
+    flex: 100%;
+    order: 3;
+}
+
+.header {
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.column_body {
+    padding: 4px;
+    margin: 20px 4px;
+    border: 1px solid black;
+    background-color: beige;
+    text-decoration-color: antiquewhite;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+h1 {
+    text-align: center;
+}
