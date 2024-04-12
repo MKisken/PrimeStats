@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="./style.css">
     <script src="index.js"></script>
   </head>
-  <body onload="">
-    <main>
-        <h1>Prime</h1>  
-    </main>
-
+  <body onload="myInterval">
     <div id="container">
-        <div class="column-1">
+      <div id="top">
+        <div class="box-container">
             <div class="header">Ordered</div>
-            <div id="ordered" class="column_body">test</div>
+            <div id="ordered" class="column_body">00000</div>
         </div>
-        <div class="column-2">
+        <div class="box-container">
             <div class="header">Shipped</div>
-            <div id="shipped" class="ship">test1</div>
+            <div id="shipped" class="column_body">0</div>
         </div>
-        <div class="column-3">
+      </div>
+      <div id="bottom">
+        <div class="box-container">
             <div class="header">Remaining</div>
-            <div id="remaining" class="remain">test2</div>
+            <div id="remaining" class="column_body">0</div>
         </div>
+      </div>
     </div>
   </body>
 </html>
