@@ -1,4 +1,4 @@
-const api_url = 'http://192.168.1.145:44333/api/';
+const api_url = 'http://192.168.1.12:1921/api/';
 const ping = 20000;
 var numShipped = 0;
 var numOrdered = 0;
